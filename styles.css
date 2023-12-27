@@ -1,0 +1,108 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #213540;
+    color: #315C2B;
+  }
+  
+  .container {
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .title {
+    text-align: center;
+    color: #ec641e; /* Nuclear green color */
+  }
+  
+  .search-box, .results {
+    margin-bottom: 20px;
+    width: 100%; /* Make search box and results box the same width */
+    color: #e1d8d3;
+}
+  ß
+  .search-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-box input {
+    padding: 10px;
+    margin-right: 10px;
+    width: calc(100% - 120px); /* Adjust the width to account for the button */
+    box-sizing: border-box; /* Ensures padding is included in total width */
+  }
+  
+  .search-box button {
+    padding: 10px;
+    width: 100px;
+    background-color: #ec641e; /* Nuclear green color */
+    color: #e1d8d3;
+    border: none;
+    /* color: none; */
+    cursor: pointer;
+    box-sizing: border-box; /* Ensures padding is included in total width */
+  }
+  
+  .search-box button:hover {
+    background-color: #315C2B; /* Slightly darker green when hovered */
+  }
+  
+  .results {
+    background-color: #213540;
+    padding: 20px;
+    overflow-y: auto;
+    box-sizing: border-box; /* Ensures padding is included in total width */
+  }
+  
+  .transaction {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .social-link {
+    margin: 0 10px;
+    color: #ec641e;
+  }
+  
+  .social-link img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Responsive design for footer icons */
+  @media (max-width: 600px) {
+    .social-link img {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .search-box input {
+      width: calc(100% - 90px); /* Adjust width for smaller devices */
+    }
+  
+    .search-box button {
+      width: 80px; /* Adjust button width for smaller devices */
+    }
+  }
+  
+  /* Ensure that the container and all its children never exceed the width of the viewport */
+  .container, .search-box, .results, .search-box input, .search-box button {
+    max-width: 100%;
+  }
+  
+  /* Make sure that the elements don't overflow the viewport width on smaller screens */
+  @media (max-width: 768px) {
+    .container, .search-box, .results, .search-box input, .search-box button {
+      width: auto;
+    }
+  }
+  
