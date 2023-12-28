@@ -119,3 +119,20 @@ footer {
     width: auto;
   }
 }
+
+.date-picker {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.date-picker input,
+.date-picker button {
+  padding: 10px;
+  margin-right: 10px;
+  color: inherit;
+  background-color: #2BC20E;
+  border: none;
+  cursor: pointer;
+}
+

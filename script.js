@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   loadInitialTransactions();
+  
   document.getElementById('search-input').disabled = false;
   document.getElementById('search-button').disabled = false;
 
@@ -47,6 +48,28 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(data => {
         const transactions = Object.entries(data);
         displayTransactions(transactions.slice(-3));
+      });
+  }
+  document.getElementById('date-button').addEventListener('click', function() {
+    const selectedDate = document.getElementById('date-input').value;
+    if (selectedDate) {
+      searchTransactionsByDate(selectedDate);
+    }
+  });
+  
+  function searchTransactionsByDate(selectedDate) {
+    fetch('ledger.json')
+      .then(response => response.json())
+      .then(data => {
+        const transactions = Object.entries(data);
+        const dateFormatted = new Date(selectedDate).toISOString().split('T')[0];
+        const matchedTransactions = transactions.filter(([txHash, transaction]) =>
+          transaction.date.startsWith(dateFormatted)
+        );
+        displayTransactions(matchedTransactions);
+      })
+      .catch(error => {
+        console.error('Error fetching the transactions:', error);
       });
   }
 
