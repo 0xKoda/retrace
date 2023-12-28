@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => response.json())
       .then(data => {
         const transactions = Object.entries(data);
-        displayTransactions(transactions.slice(-2));
+        displayTransactions(transactions.slice(-3));
       });
   }
 

@@ -2,7 +2,7 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #213540;
+  background-color: #010b12;
   color: #315C2B;
   
 }
@@ -17,7 +17,7 @@ body, html {
 
 .title {
   text-align: center;
-  color: #ec641e;
+  color: #2BC20E;
   font-family: 'Orbitron', sans-serif;
 }
 
@@ -43,7 +43,7 @@ body, html {
 .search-box button {
   padding: 10px;
   width: 100px;
-  background-color: #ec641e;
+  background-color: #2BC20E;
   color: #e1d8d3;
   border: none;
   cursor: pointer;
@@ -55,7 +55,7 @@ body, html {
 }
 
 .results {
-  background-color: #213540;
+  background-color: #010b12;
   padding: 20px;
   overflow-y: auto;
   box-sizing: border-box;
@@ -67,7 +67,7 @@ body, html {
 }
 
 .results a {
-  color: #ec641e;
+  color: #2BC20E;
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ footer {
 .social-link img {
   width: 24px;
   height: 24px;
-  fill: #ec641e;
+  fill: #2BC20E;
 }
 
 .social-link:hover img {
