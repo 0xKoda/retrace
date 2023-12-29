@@ -14,6 +14,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+  document.querySelector('.faq-toggle').addEventListener('click', function() {
+    const faqContent = document.getElementById('faq-content');
+    faqContent.style.display = faqContent.style.display === 'block' ? 'none' : 'block';
+  });
+
   function performSearch() {
     const address = document.getElementById('search-input').value.trim();
     if (address) {
@@ -47,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => response.json())
       .then(data => {
         const transactions = Object.entries(data);
-        displayTransactions(transactions.slice(-3));
+        displayTransactions(transactions.slice(-2));
       });
   }
   document.getElementById('date-button').addEventListener('click', function() {

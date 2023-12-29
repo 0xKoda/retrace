@@ -135,4 +135,34 @@ footer {
   border: none;
   cursor: pointer;
 }
+.faq-container {
+  border: 2px solid #2BC20E; /* Nuclear green color */
+  margin: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
 
+.faq-toggle {
+  background-color: #2BC20E; /* Nuclear green color */
+  color: black;
+  padding: 10px;
+  width: 100%;
+  text-align: center; /* Center the text FAQ */
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.faq-content {
+  display: none; /* Start with the content collapsed */
+  padding: 10px;
+  background-color: #010b12;
+  color: #e1d8d3; /* Set FAQ content text color to white */
+}
+
+/* Apply white color to all text inside the FAQ content, including headings and definition lists */
+.faq-content h2,
+.faq-content dt,
+.faq-content dd {
+  color: #e1d8d3;
+}
