@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div>Amount: ${transaction.amount} ${transaction.asset}</div>
         <div>Protocol: ${transaction.protocol}</div>
         <div>From: ${transaction.fromAddress}</div>
-        <div>To: <a href="https://metasleuth.io/result/eth/${transaction.toAddress}" target="_blank">${transaction.toAddress}</a></div>
+        <div>To: ${transaction.toAddress}</div>
       `;
       resultsElement.appendChild(transactionElement);
     });
