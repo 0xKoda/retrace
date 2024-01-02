@@ -239,108 +239,44 @@
     "fromAddress": "0x4025ee6512dbbda97049bcf5aa5d38c54af6be8a",
     "toAddress": "0xdc617a0f9c1fa5a18ea221f6e2158a06765ff118"
   },
-  "0x5e7a4b5be64b46aabdfa6b083a5b78611b0cee9914722a8a73a42dbce6a8b948": {
-    "date": "2024-01-01T00:38:04.500Z",
-    "amount": 2892.75,
-    "asset": "DAI",
+  "0x97e8aca4f0da4d2add0aef7d5e421e0d3080e21380ef47658b49501842018273": {
+    "date": "2024-01-02T00:33:34.918Z",
+    "amount": 4.832361402299892,
+    "asset": "WETH",
     "protocol": "Railgun",
     "fromAddress": "0xfa7093cdd9ee6932b4eb2c9e1cde7ce00b1fa4b9",
-    "toAddress": "0xb66978c49a7230c69ef03f80aad3aac9b6a1f054"
+    "toAddress": "0x1c43ffbe20ce821913c2c61e03f238ca565e8177"
   },
-  "0xed770bde00276896ba7b5a5d2924cafef456424e6c7d46d5215773bade702b76": {
-    "date": "2024-01-01T00:38:04.500Z",
-    "amount": 15022.648422,
-    "asset": "USDT",
-    "protocol": "Railgun",
-    "fromAddress": "0xfa7093cdd9ee6932b4eb2c9e1cde7ce00b1fa4b9",
-    "toAddress": "0xc67ad0f707a8c8a5e09c44364c35d9880dbbdf0e"
-  },
-  "0x830384794eb71f61160f0f77fed8f1e97a4b533616cec49b105283550dee187b": {
-    "date": "2024-01-01T00:38:04.500Z",
-    "amount": 2674.2975,
-    "asset": "USDT",
-    "protocol": "Railgun",
-    "fromAddress": "0xfa7093cdd9ee6932b4eb2c9e1cde7ce00b1fa4b9",
-    "toAddress": "0x1daf2016c8f19fdb387483386c823563725c6308"
-  },
-  "0xa376ffcf47a875fff3fb9b7c931aa885a3a07871ec999794ab95f28fefcc9026": {
-    "date": "2024-01-01T00:38:04.500Z",
-    "amount": 2203.793346,
-    "asset": "USDT",
-    "protocol": "Railgun",
-    "fromAddress": "0xfa7093cdd9ee6932b4eb2c9e1cde7ce00b1fa4b9",
-    "toAddress": "0x1daf2016c8f19fdb387483386c823563725c6308"
-  },
-  "0x6050ce54a1cb613772674a2f106a9792e2f4f7cdcb1a34543f28f853c0323fa9": {
-    "date": "2024-01-01T00:38:04.500Z",
-    "amount": 10124.014886467283,
-    "asset": "DAI",
-    "protocol": "Railgun",
-    "fromAddress": "0xfa7093cdd9ee6932b4eb2c9e1cde7ce00b1fa4b9",
-    "toAddress": "0x27adb672221cd356d8153d8bbc0e146cc88d34d1"
-  },
-  "0x309253cb0d4cc3ed62a40e57cb064b82d0258c0700370680d5783f09a00e2d4e": {
-    "date": "2024-01-01T00:38:04.500Z",
-    "amount": 11.316689173734238,
+  "0x1155561aa61fdc96aab3aaa844a8a3090fc11ba326a78966f05936d798df41ad": {
+    "date": "2024-01-02T00:33:34.918Z",
+    "amount": 4.312116631671704,
     "asset": "ETH",
     "protocol": "Railgun",
     "fromAddress": "0x4025ee6512dbbda97049bcf5aa5d38c54af6be8a",
-    "toAddress": "0x64f5f67e02094b1d902a133fa6a1beafad267ffa"
+    "toAddress": "0xb5015db6e261874137fce5acb11f70cfe3093e9c"
   },
-  "0x2fac626d54829258cc451c7b84ecfaf5e0d211542ef7057c805f8e6de61150f7": {
-    "date": "2024-01-01T00:38:04.500Z",
-    "amount": 69.20797171626742,
-    "asset": "ETH",
-    "protocol": "Railgun",
-    "fromAddress": "0x4025ee6512dbbda97049bcf5aa5d38c54af6be8a",
-    "toAddress": "0xf9a27c47064e608e544da95df173f4d5ee6f6427"
-  },
-  "0xdcf4aad031c72ab6cb0e9c8227569e7893ad125fe83f7d0d3aa2b153bf9e0f56": {
-    "date": "2024-01-01T00:38:04.500Z",
-    "amount": 2.676302206107765,
-    "asset": "ETH",
-    "protocol": "Railgun",
-    "fromAddress": "0x4025ee6512dbbda97049bcf5aa5d38c54af6be8a",
-    "toAddress": "0xea479189e2da34b8f5aa4468adb7562d5c2aa6d7"
-  },
-  "0x046c7effa35ca628be559cafefd7b71e93a9b0570c66336cfcdee44f147c4c87": {
-    "date": "2024-01-01T00:38:04.500Z",
-    "amount": 36.9075,
-    "asset": "ETH",
-    "protocol": "Railgun",
-    "fromAddress": "0x4025ee6512dbbda97049bcf5aa5d38c54af6be8a",
-    "toAddress": "0x81df04451aeb5542cf67f77e42b2a844cc3ce666"
-  },
-  "0x733c277b4cf8d086456220a89965e41430b35aa5b1e27197cc5096f988080b97": {
-    "date": "2024-01-01T00:38:04.500Z",
-    "amount": 5,
-    "asset": "ETH",
-    "protocol": "Railgun",
-    "fromAddress": "0x4025ee6512dbbda97049bcf5aa5d38c54af6be8a",
-    "toAddress": "0x58ac8309b0f42a83d9dfdc45356d1508066ffe8d"
-  },
-  "0x8218baf30af1c3dbf84369bc774abb0e811e9d09d9763b29120713e79b942593": {
-    "date": "2024-01-01T00:38:04.854Z",
+  "0xde5ba4e7b9eb3886a9a9f58973e966e94ca719bb8030a48c9b1e72194fac3ad8": {
+    "date": "2024-01-02T00:33:35.336Z",
     "amount": 100,
     "asset": "ETH",
     "protocol": "Tornado",
     "fromAddress": "0xa160cdab225685da1d56aa342ad8841c3b53f291",
-    "toAddress": "0xc25870417c4d87f6b9dee6cf10831f5a889db929"
+    "toAddress": "0xf54eaea9d5f3b5230ef5e71422f0a516d4a3eb36"
   },
-  "0xa462457852d67e6fcd69926b8abd7bdcfeac1e85be096d6e814e059e454b4afd": {
-    "date": "2024-01-01T00:38:04.854Z",
+  "0xfa59c43fa75d75b4b8186310926e46db7d4970f600fc55ddae43351b9d1db2ab": {
+    "date": "2024-01-02T00:33:35.336Z",
+    "amount": 99.6033030500392,
+    "asset": "ETH",
+    "protocol": "Tornado",
+    "fromAddress": "0xa160cdab225685da1d56aa342ad8841c3b53f291",
+    "toAddress": "0x31d1809fc3a589381942c01da2b6f4da541a3308"
+  },
+  "0xa8bfff7edf3413fde2f8c916702a493941032eeb877ba8fc5317190e296d65d7": {
+    "date": "2024-01-02T00:33:35.336Z",
     "amount": 100,
     "asset": "ETH",
     "protocol": "Tornado",
     "fromAddress": "0xa160cdab225685da1d56aa342ad8841c3b53f291",
-    "toAddress": "0xc25870417c4d87f6b9dee6cf10831f5a889db929"
-  },
-  "0x3bd0c8a82711863f3402a55ea42e05506e2bfb6a89cb2621b5fa017435bca54e": {
-    "date": "2024-01-01T00:38:04.854Z",
-    "amount": 100,
-    "asset": "ETH",
-    "protocol": "Tornado",
-    "fromAddress": "0xa160cdab225685da1d56aa342ad8841c3b53f291",
-    "toAddress": "0xc25870417c4d87f6b9dee6cf10831f5a889db929"
+    "toAddress": "0x8f43638c82071e9ea16b5bd9581b6a7388cde46b"
   }
 }
